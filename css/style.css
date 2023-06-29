@@ -1,0 +1,37 @@
+.container{
+    border-radius: 5px;
+    margin: 15px;
+    padding: 30px;
+    
+    border: 10px solid ghostwhite;
+}
+.btn{
+    background-color: rgba(54, 134, 227, 0.84);
+    color: white;
+    /* font-size: medium; */
+    border: none;
+    /* height: 30px; */
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+
+}
+.btn:hover{
+    border-color: rgba(44, 96, 154, 0.457) ;
+    color: black;
+
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: red;
+    border-top: 15px;
+    /* margin: 3px; */
+    border: 1.5px solid white;
+    box-sizing: border-box;
+}
